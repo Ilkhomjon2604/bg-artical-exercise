@@ -62,6 +62,13 @@ img {
   height: auto;
 }
 
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+}
+
 
 /* CONTAINER */
 .container {
@@ -130,7 +137,7 @@ img {
   cursor: pointer;
 }
 .link-btn{
-  display: flex;
+  display: inline-flex;
   background-color:#1E90FF;
   font-weight: normal;
   font-size: 16px;
@@ -222,6 +229,7 @@ color: #1E90FF;
 
 .time{
   margin-right: 25px;
+  display: flex;
 }
 
 .time::before{
@@ -255,6 +263,8 @@ color: #1E90FF;
 
 .btn-large{
   background-color: #1E90FF;
+  width: 100%;
+  border: none;
   color:#fff;
   text-align: center;
   font-family: Roboto Condensed;
